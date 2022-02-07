@@ -1,0 +1,150 @@
+@import "null.css";
+@font-face {
+  font-family: "AStamperRgBt";
+  src: url("../fonts/AStamperRgBt.woff2") format("woff2"),
+    url("../fonts/AStamperRgBt.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ================================================= */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #5a5a5a;
+}
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+}
+.nav {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.menu {
+  padding: 10px;
+}
+.item {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.menu-link {
+  padding: 10px;
+  text-transform: uppercase;
+  color: blue;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.article {
+  padding: 20px;
+}
+.title {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: crimson;
+  margin-bottom: 10px;
+}
+.info {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: black;
+}
+.info a {
+  color: rgb(75, 142, 230);
+}
+.img {
+  max-width: 800px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.image {
+  width: 100%;
+}
+.social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.social {
+  margin-bottom: 20px;
+}
+.icon {
+  width: 20px;
+}
+.block {
+  padding: 10px;
+}
+.paragraph {
+  margin-bottom: 20px;
+}
+.one {
+  margin-right: 30%;
+  color: darkblue;
+}
+.two {
+  margin-left: 30%;
+  color: brown;
+}
+.subtitle {
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  font-size: 20px;
+  max-width: 600px;
+  margin: 0 auto 25px;
+  color: rgb(55, 158, 14);
+  text-align: center;
+}
+.scroll {
+  max-width: 900px;
+  margin: 0 auto;
+  max-height: 400px;
+  overflow: auto;
+  margin-bottom: 25px;
+}
+.list {
+  padding: 15px 25px;
+}
+.list-item {
+  list-style: decimal;
+  margin-bottom: 10px;
+}
+.footer {
+  padding: 30px 10px;
+}
+.social-footer {
+  text-align: center;
+  margin-left: auto;
+  min-width: 130px;
+  width: 250px;
+  padding: 0 10px;
+}
+.social-item {
+  display: inline-block;
+  margin-right: 15px;
+}
+.line {
+  margin-bottom: 25px;
+  max-width: 100%;
+  text-align: center;
+  overflow: hidden;
+  color: rgb(46, 20, 163);
+}
+.source {
+  font-family: "AStamperRgBt";
+  text-align: center;
+}
+.top {
+  color: blue;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 10px 0;
+  font-size: 14px;
+  margin-left: 50%;
+}
+.top img {
+  width: 30px;
+}
+/* =================Вторая часть================================= */
